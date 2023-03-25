@@ -1,1 +1,4 @@
-body{background-image: url("imagenes/Fondo1.jpeg"); }
+body{
+    background-image: url("Imagenes/fondo\ 3.jpeg");
+    background-size: cover;
+    }
