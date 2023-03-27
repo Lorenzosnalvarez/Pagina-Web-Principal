@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background-color: lightgray;
+    }
+#header{
+    background-color: #ff6600;
+}
+
+#barra_superior{
+    display: flex;
+} 
+
+.logo{
+     
+    padding: 7px 0px 5px 200px;
+    
+}
+
+
+
+
+
+.buscador{
+    padding: 20px 160px;
+}
+
+
+
+
+.contacto{
+    padding: 23px 0px 0px 42px;
+    text-align: left;
+}
+
+.contacto a{
+    color: black
+}
+#menu{
+    background-color:#333; 
+    list-style-type: none; 
+    margin: 0px; 
+    padding-left: 200px; 
+    overflow: hidden;
+    }
+
+.bi {padding: 0px; 
+    float: left;
+    }
+  
+.bi a { 
+    text-transform:uppercase;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:#ff6600;
+  }
