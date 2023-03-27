@@ -11,7 +11,7 @@ body{
     display: flex;
     } 
         .logo{
-            padding: 7px 0px 5px 200px;
+            padding: 6px 0px 4px 200px;
         }
         .buscador{
                 margin: 0px;
@@ -23,12 +23,7 @@ body{
                 border: 0px;
                 border-radius: 5px;
                 font-size: 20px;
-                
-            }
-        
-            .barra_buscador{
-                background-color: lightgray;
-                box-sizing:content-box;
+                background-color:lightgray;   
             }
         .contacto{
             padding: 23px 0px 0px 42px;
@@ -40,35 +35,46 @@ body{
 
 
     #barra_inferior{
-
+        display:flex;
+        background-color: #333;
     }
+        #menu{
+            list-style-type: none; 
+            margin: 0px; 
+            padding-left: 180px; 
+            overflow: hidden;
+            }
+            .bi {
+                float: left;
+                }
+            .bi a { 
+                text-transform:uppercase;
+                padding: 10px 10px ;
+                display:block;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                }
+              li a:hover {
+                background-color: black;
+                }
+
+        #funciones{
+
+        }
+
 
 
 
 
 
 #menu{
-    display: flex;
-    background-color:#333; 
-    list-style-type: none; 
-    margin: 0px; 
-    padding-left: 200px; 
-    overflow: hidden;
+     
+    
     }
 
-.bi {padding: 0px; 
-    float: left;
-    }
+
   
-.bi a { 
-    text-transform:uppercase;
-    display:block;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    text-decoration: none;
-  }
+
   
-  li a:hover {
-    background-color:#ff6600;
-  }
+  
