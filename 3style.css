@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0px;
     background-color: lightgray;
@@ -5,37 +7,48 @@ body{
 #header{
     background-color: #ff6600;
 }
-
-#barra_superior{
+    #barra_superior{
     display: flex;
-} 
+    } 
+        .logo{
+            padding: 7px 0px 5px 200px;
+        }
+        .buscador{
+                margin: 0px;
+                padding: 20px 100px 10px 160px; 
+        }
+            .barra_buscador{
+                margin: 0px ;
+                padding: 8px;
+                border: 0px;
+                border-radius: 5px;
+                font-size: 20px;
+                
+            }
+        
+            .barra_buscador{
+                background-color: lightgray;
+                box-sizing:content-box;
+            }
+        .contacto{
+            padding: 23px 0px 0px 42px;
+            text-align: left;
+        }
+            .contacto a{
+                color: black
+            }
 
-.logo{
-     
-    padding: 7px 0px 5px 200px;
-    
-}
+
+    #barra_inferior{
+
+    }
 
 
 
 
 
-.buscador{
-    padding: 20px 160px;
-}
-
-
-
-
-.contacto{
-    padding: 23px 0px 0px 42px;
-    text-align: left;
-}
-
-.contacto a{
-    color: black
-}
 #menu{
+    display: flex;
     background-color:#333; 
     list-style-type: none; 
     margin: 0px; 
