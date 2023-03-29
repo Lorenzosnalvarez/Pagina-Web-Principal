@@ -1,28 +1,39 @@
 /*
-
+header
+    <div> barra superior 
+        <div> logo
+        <div> buscador
+        <div> contacto
+    <div> barra inferior
+        <div> menu
+        <div> funciones  
 
 
 
 
 */
-*{border: solid red 1px}
+
 body{
     margin: 0px;
     background-color: lightgray;
     }
 #header{
+    width: 100%;
+    position:fixed;
     background-color: #ff6600;
-
 }
     #barra_superior{
+        width: 100%;
+    position: fixed;
     display: flex;
+    background-color: #ff6600;
     } 
         .logo{
-            padding: 6px 0px 4px 150px;
+            padding: 6px 0px 4px 100px;
         }
         .buscador{
                 margin: 0px;
-                padding: 21px 180px 10px 180px; 
+                padding: 8px 0px 0px 0px ; 
         }
             .barra_buscador{
                 margin: 0px ;
@@ -43,50 +54,51 @@ body{
 
 
     #barra_inferior{
+        width: 100%;
+        position: fixed;
         display:flex;
         background-color: #333;
     }
-        #menu{
-            list-style-type: none; 
-            margin: 0px; 
-            padding-left: 140px; 
-            overflow: hidden;
-            }
-            .bi {
-                float: left;
-                }
-            .bi a { 
-                text-transform: uppercase;
-                padding: 10px 10px ;
-                display:block;
-                color: white;
-                text-align: center;
-                text-decoration: none;
-                }
-              li a:hover {
-                background-color: black;
-                }
+    /*Menu*/    #menu{
+                        list-style-type: none; 
+                        margin: 0px; 
+                        padding-left: 100px; 
+                        overflow: hidden;
+                        }
+                    .bi {
+                        float: left;
+                        }
+                    .bi a { 
+                        text-transform: uppercase;
+                        padding: 10px 10px ;
+                        display:block;
+                        color: white;
+                        text-align: center;
+                        text-decoration: none;
+                        }
+                    li a:hover {
+                        background-color: black;
+                        }
 
-        #funciones{
-            list-style-type: none;
-            margin: 0px 0px 0px 220px ;
-            padding-right:  42px;
-        }
-            .bf{
-                
-                float:right;
-            }
-            .bf a {
-                text-transform:uppercase;
-                padding: 10px 10px 10px 10px;
-                display: block;
-                color: white;
-                text-align: center;
-                text-decoration: none;
-            }
-            .bf a:hover{
-                background-color: black;
-            }
+/*Funciones*/   #funciones{
+                        list-style-type: none;
+                        margin: 0px 0px 0px 0px;
+                        padding-left: 249px;
+                        }
+                        .bf{
+                            float:right;
+                            }
+                        .bf a {
+                            text-transform: uppercase;
+                            padding: 10px;
+                            display: block;
+                            color: white;
+                            text-align: center;
+                            text-decoration: none;
+                            }
+                    .bf a:hover {
+                        background-color: black;
+                        }
 
 
 
