@@ -1,27 +1,34 @@
+/*
 
 
+
+
+
+*/
+*{border: solid red 1px}
 body{
     margin: 0px;
     background-color: lightgray;
     }
 #header{
     background-color: #ff6600;
+
 }
     #barra_superior{
     display: flex;
     } 
         .logo{
-            padding: 6px 0px 4px 200px;
+            padding: 6px 0px 4px 150px;
         }
         .buscador{
                 margin: 0px;
-                padding: 20px 100px 10px 160px; 
+                padding: 21px 180px 10px 180px; 
         }
             .barra_buscador{
                 margin: 0px ;
                 padding: 8px;
                 border: 0px;
-                border-radius: 5px;
+                border-radius: 10px;
                 font-size: 20px;
                 background-color:lightgray;   
             }
@@ -30,7 +37,8 @@ body{
             text-align: left;
         }
             .contacto a{
-                color: black
+                color: black;
+                text-decoration: none;
             }
 
 
@@ -41,14 +49,14 @@ body{
         #menu{
             list-style-type: none; 
             margin: 0px; 
-            padding-left: 180px; 
+            padding-left: 140px; 
             overflow: hidden;
             }
             .bi {
                 float: left;
                 }
             .bi a { 
-                text-transform:uppercase;
+                text-transform: uppercase;
                 padding: 10px 10px ;
                 display:block;
                 color: white;
@@ -60,18 +68,29 @@ body{
                 }
 
         #funciones{
-
+            list-style-type: none;
+            margin: 0px 0px 0px 220px ;
+            padding-right:  42px;
         }
+            .bf{
+                
+                float:right;
+            }
+            .bf a {
+                text-transform:uppercase;
+                padding: 10px 10px 10px 10px;
+                display: block;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+            }
+            .bf a:hover{
+                background-color: black;
+            }
 
 
 
 
-
-
-#menu{
-     
-    
-    }
 
 
   
