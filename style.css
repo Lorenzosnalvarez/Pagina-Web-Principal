@@ -9,96 +9,134 @@ header
         <div> funciones  
 
 
+ .bi {
+                        float: left;
+                        }
+                    .bi a { 
+                        
+                    li a:hover {
+                        background-color: black;
+                        }
+
+
+                    .bf{
+                        float:right;
+                        }
+                    .bf a {
+                        text-transform: uppercase;
+                        padding: 0px;
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        text-decoration: none;
+                        }
+                .bf a:hover {
+                    background-color: black;
+                    }
+
+
 
 
 */
 
 body{
     margin: 0px;
-    background-color: lightgray;
+    background-color: white;
     }
+
+    
 #header{
+    position: fixed;
     width: 100%;
-    position:fixed;
-    background-color: #ff6600;
-}
+    background-color: #f60;
+    }
+     
     #barra_superior{
         width: 100%;
-    position: fixed;
-    display: flex;
-    background-color: #ff6600;
-    } 
+        display: flex;
+        
+        } 
+
         .logo{
-            padding: 6px 0px 4px 100px;
-        }
+            margin: 11px 0px 0px 170px ;
+            }
+
         .buscador{
-                margin: 0px;
-                padding: 8px 0px 0px 0px ; 
-        }
+            margin: 8px 0px 0px 50px ; 
+                }
+                
+
             .barra_buscador{
                 margin: 0px ;
-                padding: 8px;
+                padding: 12px;
                 border: 0px;
-                border-radius: 10px;
-                font-size: 20px;
-                background-color:lightgray;   
-            }
+                border-radius: 3px;
+                font-size: 15px;
+                background-color:white ;   
+                }
+                
         .contacto{
-            padding: 23px 0px 0px 42px;
-            text-align: left;
-        }
+            margin: 10px 170px 0px 197px;
+            }
             .contacto a{
                 color: black;
                 text-decoration: none;
-            }
+                }
 
 
     #barra_inferior{
-        width: 100%;
-        position: fixed;
+        margin: 12px 0px 0px 0px;
+        padding: 0px;
+        width:100%;
         display:flex;
         background-color: #333;
-    }
-    /*Menu*/    #menu{
-                        list-style-type: none; 
-                        margin: 0px; 
-                        padding-left: 100px; 
-                        overflow: hidden;
-                        }
-                    .bi {
-                        float: left;
-                        }
-                    .bi a { 
-                        text-transform: uppercase;
-                        padding: 10px 10px ;
-                        display:block;
-                        color: white;
-                        text-align: center;
-                        text-decoration: none;
-                        }
-                    li a:hover {
-                        background-color: black;
-                        }
-
-/*Funciones*/   #funciones{
-                        list-style-type: none;
-                        margin: 0px 0px 0px 0px;
-                        padding-left: 249px;
-                        }
-                        .bf{
-                            float:right;
-                            }
-                        .bf a {
-                            text-transform: uppercase;
-                            padding: 10px;
-                            display: block;
-                            color: white;
-                            text-align: center;
-                            text-decoration: none;
-                            }
-                    .bf a:hover {
-                        background-color: black;
-                        }
+        }
+        #menu {
+            margin: 0px 0px 0px 170px;
+            padding: 0px;
+            background-color: #333;
+            list-style-type: none;
+            overflow: hidden;
+            }
+            .m{
+                float: left;
+                }
+          
+            .m a {
+                display:block;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                }
+          
+            .m a:hover {
+                background-color:black;
+                }
+        #funciones{
+            margin: 0px 0px 0px 350px;
+            padding: 0px;
+            background-color: #333;
+            list-style-type: none;
+            overflow: hidden;
+            }
+            .f{
+                float: left;
+                }
+          
+            .f a {
+                display:block;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                }
+          
+            .f a:hover {
+                background-color: black;
+                }
+           
+            
 
 
 
