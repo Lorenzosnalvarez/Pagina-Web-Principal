@@ -8,36 +8,42 @@ header
         <div> menu
         <div> funciones  
 
-
- .bi {
-                        float: left;
-                        }
-                    .bi a { 
-                        
-                    li a:hover {
-                        background-color: black;
-                        }
+font-style=
+font-
 
 
-                    .bf{
-                        float:right;
-                        }
-                    .bf a {
-                        text-transform: uppercase;
-                        padding: 0px;
-                        display: block;
-                        color: white;
-                        text-align: center;
-                        text-decoration: none;
-                        }
-                .bf a:hover {
-                    background-color: black;
-                    }
+
+position-static: 
+    relative: relativo a su posicion normal, 
+    fixed: relativo a la pantalla, osea que siempre va a estar en el mismo lugar 
+    absolute: es relativa a su elemento padre, "div, vas a estar a la derecha 0 de otro div"       
+    sticky: scroleo 
+
+display: 
+    block: 
+
+    inline: ocupa el ancho de la caja 
+
+div: block
+span: inline 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 */
+
 
 body{
     margin: 0px;
@@ -46,19 +52,19 @@ body{
 
     
 #header{
-    position: fixed;
     width: 100%;
     background-color: #f60;
     }
      
     #barra_superior{
+        min-height: 60px;
+        background-color: #f60;
         width: 100%;
         display: flex;
-        
         } 
 
         .logo{
-            margin: 11px 0px 0px 170px ;
+           margin: 11px 0px 0px 170px ;
             }
 
         .buscador{
@@ -83,10 +89,11 @@ body{
                 text-decoration: none;
                 }
 
-
     #barra_inferior{
-        margin: 12px 0px 0px 0px;
-        padding: 0px;
+        position: sticky;
+        top: 0px;
+        padding: 0px 0px;
+        margin-top: 0px;
         width:100%;
         display:flex;
         background-color: #333;
@@ -104,7 +111,7 @@ body{
           
             .m a {
                 display:block;
-                padding: 10px;
+                padding:10px;
                 text-align: center;
                 color: white;
                 text-decoration: none;
@@ -113,6 +120,7 @@ body{
             .m a:hover {
                 background-color:black;
                 }
+
         #funciones{
             margin: 0px 0px 0px 350px;
             padding: 0px;
