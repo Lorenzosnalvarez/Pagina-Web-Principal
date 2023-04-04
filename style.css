@@ -52,6 +52,8 @@ body{
 
     
 #header{
+    position: sticky;
+    top: 0px;
     width: 100%;
     background-color: #f60;
     }
@@ -64,7 +66,7 @@ body{
         } 
 
         .logo{
-           margin: 11px 0px 0px 170px ;
+           margin: 11px 0px 0px 170px;
             }
 
         .buscador{
@@ -90,8 +92,6 @@ body{
                 }
 
     #barra_inferior{
-        position: sticky;
-        top: 0px;
         padding: 0px 0px;
         margin-top: 0px;
         width:100%;
@@ -144,14 +144,52 @@ body{
                 background-color: black;
                 }
            
+
+    #caja_fotos_empresa{
+        
+        width: 100%;
+        height: 300px;
+    }
+        #fotos_empresa{
             
+            margin: 10% 10% 10% 10%;
+        }
 
-
-
-
-
-
-  
-
-  
+    #caja_circulos_productos{
+        
+        width: 100%;
+        height: 300px;
+    }
+        #circulos_productos{
+            
+            margin: 10% 10% 10% 10%;
+        }
+#zona_compras{
+    background-color: white;
+    
+    margin-left: 170px;
+    margin-right: 170px;
+}
+    #primeros6{
+        display: flex;
+    }
+        .producto{
+            text-align: center;
+            width: 280px;
+            height: 350px;
+            border: #333 solid 1px;
+            margin-right: 1.5%;
+            display: block;
+        }
+            .producto a{
+                display:block;
+                padding: 0px;
+                text-align: center;
+                color: black;
+                text-decoration: none;
+            }
+        
+    #segundos6{
+        display: flex;
+    }
   
