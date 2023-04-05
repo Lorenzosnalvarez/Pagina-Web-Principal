@@ -145,41 +145,52 @@ body{
                 }
            
 
-    #caja_fotos_empresa{
-        
+    #caja_scroll_fotos{
         width: 100%;
-        height: 300px;
+        height: 350px;
+        border: solid red 1px;
+        
     }
         #fotos_empresa{
-            
-            margin: 10% 10% 10% 10%;
+            border: solid red 1px;
+            width: 100%;
+            height: 350px; 
         }
 
+
+
+
     #caja_circulos_productos{
-        
+        border: solid red 1px;
         width: 100%;
         height: 300px;
     }
         #circulos_productos{
-            
-            margin: 10% 10% 10% 10%;
+            border: solid red 1px;
+            margin: 0px 170px;
+            height: 300px;
         }
-#zona_compras{
-    background-color: white;
-    
+
+#encabezados{
     margin-left: 170px;
-    margin-right: 170px;
 }
-    #primeros6{
+#zona_compras{
+
+    background-color: white;
+    margin: 0px 170px;
+}
+    #lineas_productos{
         display: flex;
     }
         .producto{
             text-align: center;
             width: 280px;
             height: 350px;
-            border: #333 solid 1px;
             margin-right: 1.5%;
             display: block;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            
+
         }
             .producto a{
                 display:block;
@@ -189,7 +200,5 @@ body{
                 text-decoration: none;
             }
         
-    #segundos6{
-        display: flex;
-    }
+    
   
