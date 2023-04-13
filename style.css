@@ -63,6 +63,15 @@ body{
         background-color: #f60;
         width: 100%;
         display: flex;
+        flex-direction: row;/*sobre el eje principal */
+        flex-wrap:wrap;/*adapta lo que esta adentro al espacio que tenemos si se termino el espacio me lo manda para abajo en el wrap, trabaja sobre el eje transversal 
+        flex-flow: row-wrap combina los dos
+        justify-content: flex-start
+        justifica el contenido al principal 
+        */
+        justify-content: space-evenly;
+        
+        
         } 
 
         .logo{
@@ -76,7 +85,7 @@ body{
 
             .barra_buscador{
                 margin: 0px ;
-                padding: 12px;
+                padding: 12px; 
                 border: 0px;
                 border-radius: 3px;
                 font-size: 15px;
@@ -96,6 +105,7 @@ body{
         margin-top: 0px;
         width:100%;
         display:flex;
+        flex-direction: row;
         background-color: #333;
         }
         #menu {
@@ -110,6 +120,7 @@ body{
                 }
           
             .m a {
+                border: solid red 1px;
                 display:block;
                 padding:10px;
                 text-align: center;
