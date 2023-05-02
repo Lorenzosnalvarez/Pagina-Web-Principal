@@ -59,15 +59,11 @@ body{
     }
      
     #barra_superior{
+        height: 70px;
+        border: solid red 1px;
         background-color: lightgray;
         width: 100%;
         display: flex;
-        flex-direction: row;/*sobre el eje principal */
-        flex-wrap:wrap;/*adapta lo que esta adentro al espacio que tenemos si se termino el espacio me lo manda para abajo en el wrap, trabaja sobre el eje transversal 
-        flex-flow: row-wrap combina los dos
-        justify-content: flex-start
-        justifica el contenido al principal 
-        */
         justify-content: space-evenly;
         
         
@@ -80,7 +76,6 @@ body{
 
         .buscador{
             border: solid red 1px;
-
             margin: 8px 0px 8px 0px; 
             padding: 8px;
                 }
@@ -96,6 +91,7 @@ body{
                 }
                 
         .contacto{
+            border: solid red 1px;
             margin: 10px 70px 10px 0px;
             padding: 8px;
             }
