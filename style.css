@@ -4,8 +4,8 @@
     margin: 0px;
     background-color: white;
     height: 100vh;
-    
 }
+
 /*HEADER*/
 #header{
     box-sizing: border-box;
@@ -94,6 +94,11 @@
         color: white;
         font-size:8vh;
     }
+
+
+
+
+
 /*MAIN*/
 #main{
     margin-top: 5%;
@@ -101,7 +106,7 @@
     height: 150vh;
 }
     .main-containers{
-        border: solid red 1px;
+        
         box-sizing: border-box;
         width: 73%;
         height: 75vh;
@@ -161,58 +166,38 @@
         width: 73%;
         height: 100%;
         margin: auto;
+        
     }
-
-
-
-
-
-
+        
         .grid-container {
             display: grid;
             grid-template-columns: auto auto auto auto;
-            gap: 10px;
+           
             background-color: #2196F3;
-            padding: 10px;
+            
+            height: 100%;
         }
-        
         .grid-container > div {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: orange;
             text-align: center;
-            padding: 20px 0;
-            font-size: 30px;
+            
+            
         }
         
-        .item1{
-            grid-column: 1 / 5;
-        }
-        .item2{
-            grid-row: 2 / 1;  
-        }
-        .item3{ 
-        }
-        .item4{}
-        .item5{}
-        .item6{   
-        }
-        .item7{  
-        }
-        .item8{   
-        }
-        .item9{}
-        .item10{}
-        .item11{}
-        .item12{
-            
-        }
-        .item13{}
-        .item14{}
-        .item15{
-            
-        }
-        .item16{}
-        .item17{}
-        .item18{}
+
+/*SCROLLTOP*/  
+.scroll-top{
+    border: 3px solid #73AD21;
+    box-sizing: border-box;
+    border: none ;
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    width: fit-content;
+}   
+
+
+
 
 
 
