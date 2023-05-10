@@ -20,7 +20,7 @@
 #header-inner{
     box-sizing: border-box;
     margin: 0px;
-    height: 8vh;
+    height: 10vh;
 }
     .nav{
         display: flex;
@@ -29,7 +29,7 @@
         .logo{
             box-sizing: border-box;
             margin-left: 2vw;
-            height: 8vh;
+            height: 10vh;
             width: 12vw;
             background: url(Imagenes/Logo\ libor\ nuevo.png) center;
             background-size: contain;
@@ -37,7 +37,7 @@
             }
         .menu{
             box-sizing: border-box;
-            height: 8vh; 
+            height: 10vh; 
         }
             .lista{
                 box-sizing: border-box;
@@ -94,7 +94,15 @@
         margin: auto;
         color: white;
         font-size:8vh;
+        font-family: 'Work Sans', sans-serif;
     }
+
+
+
+
+
+
+
 
 /*MAIN*/
 #main{
@@ -102,21 +110,24 @@
     width: 100%;
     height: 150vh;
 }
+
+    /*INFO 1*/
     .main-containers{
-        
         box-sizing: border-box;
         width: 73%;
         height: 75vh;
         margin: auto;
         overflow-y: auto;
     }
-        .main-titulo{
+        .main-titulo-1{
             box-sizing: border-box;
             max-height: 16.5%;
             width: 100%;
             display: flex;
             align-items:center;
+            justify-content: left;
             font-size: 150%;
+            font-family: 'Work Sans', sans-serif;
         }
         .main-hr{
             box-sizing: border-box;
@@ -149,6 +160,25 @@
                 background-position: center;
                 
             }
+
+    /*INFO 2*/
+        .main-titulo-2{
+            box-sizing: border-box;
+            max-height: 16.5%;
+            width: 100%;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            font-size: 150%;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+
+
+
+
+
+
 
 /*FOOTER*/
 #footer{
@@ -200,13 +230,11 @@
         'FILL' 0,
         'wght' 700,
         'GRAD' 0,
-        'opsz' 48;
+        'opsz' 100p;
     }
         .material-symbols-outlined:hover{
             background-color: orange;
-            border-radius: 100%;
-            transition-duration: 0.9s;
-            
+            transition-duration: 0.0s;
         }
 
 
