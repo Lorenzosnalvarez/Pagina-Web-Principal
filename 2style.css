@@ -4,6 +4,7 @@
     margin: 0px;
     background-color: white;
     height: 100vh;
+    font-family: 'Work Sans', sans-serif; 
 }
 
 /*HEADER*/
@@ -17,6 +18,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 5px 20px gray;
+     
     
 }
 #header_productos{
@@ -258,6 +260,7 @@
     height: 45vh;
     background-color: #181818;
     box-shadow: 0px -5px 20px gray;
+    font-family: 'Work Sans', sans-serif; 
 }
     .footer-container{
         
