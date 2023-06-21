@@ -1,0 +1,315 @@
+#body{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: white;
+    height: 100vh;
+}
+
+/*HEADER*/
+#header_info{
+    border: solid red 1px;
+    box-sizing: border-box;
+    /*porque este height me es mas grande que el vh*/
+    height: 55vh;
+    width: 100%;
+    background: url(Imagenes/fondo_info.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 20px gray;
+    
+}
+#header_productos{
+    border: solid red 1px;
+    box-sizing: border-box;
+    /*porque este height me es mas grande que el vh*/
+    height: 55vh;
+    width: 100%;
+    background: url(Imagenes/fondo_productos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 20px gray;
+    
+}
+#header_descargas{
+    border: solid red 1px;
+    box-sizing: border-box;
+    /*porque este height me es mas grande que el vh*/
+    height: 55vh;
+    width: 100%;
+    background: url(Imagenes/fondo_descargas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 20px gray;
+    
+}
+    #header-nav{
+        border: solid red 1px;
+        box-sizing: border-box;
+        margin: 0px;
+        height: 10vh;
+    }
+        .nav{
+            display: flex;
+            justify-content:space-between;
+        }
+            .logo{
+                box-sizing: border-box;
+                margin-left: 2vw;
+                height: 10vh;
+                width: 12vw;
+                background: url(Imagenes/Logo\ libor\ nuevo.png) center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                }
+            .menu{
+                box-sizing: border-box;
+                height: 10vh; 
+            }
+                .lista{
+                    box-sizing: border-box;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;   
+                }
+                    li{
+                        float: left;
+                    }
+                        li a {
+                            box-sizing: border-box;
+                            display: block;
+                            color: black;
+                            text-align: center;
+                            padding: 14px 16px;
+                            text-decoration: none;
+                            height: 100%;
+                        }
+                            li a:hover{
+                                box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+                                color: white;
+                            }
+                            .dropdown-content {
+                                display: none;
+                                position: absolute;
+                                min-width: 160px;
+                                box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+                                z-index: 1;
+                            }   
+                            .dropdown-content a {
+                                color: black;
+                                padding: 12px 16px;
+                                text-decoration: none;
+                                display: block;
+                                text-align: left;
+                            }
+                            /*
+                            .dropdown-content a:hover {
+                            }
+                            */
+                            .dropdown:hover .dropdown-content {
+                                display: block;
+                            }
+#header-info{
+    box-sizing: border-box;
+    height: 45vh;
+    padding-top: 18vh;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+    .titulo{
+        box-sizing: border-box;
+        width: fit-content;
+        margin: auto;
+        font-size: 6vh;
+    }
+    .subtitulo{
+        box-sizing: border-box;
+        width: fit-content;
+        margin: auto;
+        margin-top: 2vh;
+
+    }
+                            
+#main_productos{
+    border: solid red 1px;
+    box-sizing: border-box;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100vh;
+}
+#main_info{
+    border: solid red 1px;
+    box-sizing: border-box;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100vh;
+}
+#main_descargas{
+    border: solid red 1px;
+    box-sizing: border-box;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 70vh;
+}
+    .items{
+        border: solid red 1px;
+        box-sizing: border-box;
+        height: 20vh;
+        width: 73%;
+        margin: auto;
+    }
+        button{
+           
+        }
+    #container_productos{
+        border: solid red 1px;
+        box-sizing: border-box;
+        height: 80vh;
+        width: 73%;
+        margin: auto;
+
+    }
+    #container_descargas{
+        border: solid red 1px;
+        box-sizing: border-box;
+        height: 70vh;
+        width: 73%;
+        margin: auto;
+        display: flex;
+        text-align: center;    
+    }
+        .catalogo{
+
+        }
+            .catalogo_titulo{
+
+            }
+            .catalogo_texto{
+
+            }
+            .catalogo_descarga{
+                
+            }
+       
+    
+
+
+/*FOOTER*/
+#footer{
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 45vh;
+    background-color: #181818;
+    box-shadow: 0px -5px 20px gray;
+}
+    .footer-container{
+        
+        box-sizing: border-box;
+        display: flex;
+        width: 73%;
+        margin: auto;
+        height: 100%;
+    }   
+        .row-1{
+            
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            background-color: #181818;
+            width: 25%;
+            font-size: 140%; 
+            margin-top: 3%;
+            margin-bottom: 3%;
+            overflow: hidden;
+        }
+            .logo-footer {
+                
+                box-sizing: border-box;
+                height: 33.3%;
+                background: url(Imagenes/Logo\ libor\ nuevo.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .info-footer {
+                
+                box-sizing: border-box;
+                height: fit-content;
+                margin-top: 5%;
+                letter-spacing: 1px;
+                line-height: 1.5;
+            }
+                    a {
+                        text-decoration: none;
+                        color: #777777;
+                    }
+        .row-2{
+            
+            box-sizing: border-box;
+            width: 75%;
+            display: flex;
+            overflow-y: hidden;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            
+        }
+            .footer-row-2-espacio{
+                
+                box-sizing: border-box;
+                width: 33.3%;
+            }
+            .footer-row-2-info{
+                
+                box-sizing: border-box;
+                width: 33.3%;
+                overflow-y: auto;
+            }
+                .footer-row-2-info-titulo{
+                    
+                    box-sizing: border-box;
+                    font-size: 140%;
+                    letter-spacing: 1px;
+                    line-height: 1.5;
+                    color: lightgrey;
+                }
+                .footer-row-2-info-menu{
+                    
+                    box-sizing: border-box;
+                    font-size: 140%;
+                    letter-spacing: 1px;
+                    line-height: 1.5;
+                    color: #777777;
+                }
+            
+/*SCROLLTOP*/ 
+.scroll-top{
+   
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    height: fit-content;
+    width: fit-content;
+}   
+    .material-symbols-outlined{
+        
+        padding: 10px;
+        color: black;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 100p;
+    }
+        .material-symbols-outlined:hover{
+            background-color: orange;
+            border-radius: 10% 50%;
+            transition-duration: 0.3s;
+        }
