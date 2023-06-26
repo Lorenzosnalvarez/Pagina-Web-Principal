@@ -176,11 +176,31 @@
     #container_productos{
         border: solid black 1px ;
         box-sizing: border-box;
-        height: 80vh;
+        height: fit-content;
         width: 73%;
         margin: auto;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+        #contador {
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+            flex-wrap: wrap;
+        }
+            p{padding-left: 20%;}
+
+       
+        
+
+
+
+
+
+
+
+
     #container_descargas{
         
         box-sizing: border-box;
