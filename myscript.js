@@ -1,9 +1,9 @@
-var diasElement = document.getElementById("dias");
-var horasElement = document.getElementById("horas");
-var minutosElement = document.getElementById("minutos");
-var segundosElement = document.getElementById("segundos");
+var divDias = document.getElementById("dias");
+var divHoras = document.getElementById("horas");
+var divMinutos = document.getElementById("minutos");
+var divSegundos = document.getElementById("segundos");
 
-var fechaLimite = new Date("2023-06-27T00:00:00");
+var fechaLimite = new Date("2023-06-26T17:40:00");
 
 function actualizarContador() {
   var ahora = new Date();
@@ -14,10 +14,10 @@ function actualizarContador() {
   var minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
   var segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
   
-  diasElement.textContent = dias.toString();
-  horasElement.textContent = horas.toString();
-  minutosElement.textContent = minutos.toString();
-  segundosElement.textContent = segundos.toString();
+  divDias.textContent = dias.toString();
+  divHoras.textContent = horas.toString();
+  divMinutos.textContent = minutos.toString();
+  divSegundos.textContent = segundos.toString();
 }
 actualizarContador();
 setInterval(actualizarContador, 1000);
