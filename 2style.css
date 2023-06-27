@@ -538,6 +538,11 @@
             flex-direction: column;
             width: 100%;
         }
+        #container_productos_contador{
+            margin-left: 20px;
+        }
+        #dias,#horas,#minutos,#segundos{
+            padding-left: 10px;}
         #container_carrito{
             margin-left: 5px;
         }
