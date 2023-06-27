@@ -45,8 +45,9 @@
 
 <!--MAIN-->
 <main id="main_productos">
-    <div id="container_productos">
-        <h2>Tiempo restante de promoción producto tal</h2>
+    <!--CONTADOR
+    <div id="container_productos_contador">
+        <h2>Tiempo restante de promoción Bactericida</h2>
         <div id="contador">
             <div><p id="dias">00</p><h5>Dias</h5></div>
             <div><p id="horas">00</p><h5>Horas</h5></div>
@@ -54,8 +55,106 @@
             <div><p id="segundos">00</p><h5>Segundos</h5></div>
         </div>
     </div>
-    <script src="myscript.js"></script>
+    <script src="myscript.js"></script>-->
+    
+    <!--CARRITO-->
+    <div id="container_productos_general">
+        <div id="container_catalogo_productos">
+            <h1>Catálogo</h1>
+            <div id="productos">
+                <!--Bacter-->
+                <div class="producto">
+                    <h3>Bactericida</h3>
+                    <div id="info_producto">
+                        <div id="foto_producto">
+                            <img src="Imagenes/bactericida.jpg" alt="foto bacter">
+                        </div>
+                        <div id="descripcion_producto">
+                            <p>
+                                Producto bactericida con alta carga de amonios cuaternarios.<br>
+                                Indicado su uso en baños, vestuarios y pisos de minimercado en estaciones de servicio.<br>
+                                A pesar de su alto poder limpiador y bactericida, ofrece un aroma muy agradable.<br>
+                                Ideal para el mantenimiento diario.<br><br>
+                                Presentación: Cajas de 4 bidones de 5 litros</p>
+                            <p>Precio: $6.500.00</p>
+                            <div id="descuentos">
+                                <div id="descuento_texto">
+                                    <p style="color: red;">10% off en efectivo</p>
+                                </div>
+                                <div id="container_productos_contador">
+                                    
+                                    <div id="contador">
+                                        <div><p id="dias">00</p></div>
+                                        <div><p id="horas">00</p></div>
+                                        <div><p id="minutos">00</p></div>
+                                        <div><p id="segundos">00</p></div>
+                                    </div>
+                                </div>
+                                <script src="myscript.js"></script>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button class="button_carrito" onclick="agregarAlCarrito('Bactericida', 6500.00)">Agregar al carrito</button>
+                </div>
+                <!--Biox-->
+                <div class="producto">
+                    <h3>Biox</h3>
+                    <div id="info_producto">
+                        <div id="foto_producto">
+                            <img src="Imagenes/biox.jpg" alt="foto biox">
+                        </div>
+                        <div id="descripcion_producto">
+                            <p>
+                                Producto bactericida con alta carga de amonios cuaternarios.<br>
+                                Indicado su uso en baños, vestuarios y pisos de minimercado en estaciones de servicio.<br>
+                                A pesar de su alto poder limpiador y bactericida, ofrece un aroma muy agradable.<br>
+                                Ideal para el mantenimiento diario.<br><br>
+                                Presentación: Cajas de 4 bidones de 5 litros</p>
+                            <p>Precio: $4.500.00</p>
+                        </div>
+                        
+                    </div>
+                    <button class="button_carrito" onclick="agregarAlCarrito('Biox', 4500.00)">Agregar al carrito</button>
+                </div>
+                <!--Lavap-->
+                <div class="producto">
+                    <h3>Limpiaparabrisas</h3>
+                    <div id="info_producto">
+                        <div id="foto_producto">
+                            <img src="Imagenes/limpiaparabrisas.jpg" alt="foto_limpiaparabrisas">
+                        </div>
+                        <div id="descripcion_producto">
+                            <p>
+                                Producto bactericida con alta carga de amonios cuaternarios.<br>
+                                Indicado su uso en baños, vestuarios y pisos de minimercado en estaciones de servicio.<br>
+                                A pesar de su alto poder limpiador y bactericida, ofrece un aroma muy agradable.<br>
+                                Ideal para el mantenimiento diario.<br><br>
+                                Presentación: Cajas de 4 bidones de 5 litros</p>
+                            <p>Precio: $5.500.00</p>
+                        </div>
+                        
+                    </div>
+                    <button class="button_carrito" onclick="agregarAlCarrito('Limpiaparabrisas', 5500.00)">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div id="container_carrito"> 
+            <h1>Carrito de Compras</h1>
+            <div id="carrito">
+                <p>Productos en el carrito:</p>
+            </div>
+            <h1>Total a Pagar</h1>
+            <div id="carrito">
+                <p>Total a pagar: $<span id="total">0.00</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="2myscript.js"></script>
+    
 </main>
+
+
 
 
 <!--FOOTER-->

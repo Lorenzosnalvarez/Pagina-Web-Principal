@@ -1,9 +1,11 @@
+//CONTADOR
+
 var divDias = document.getElementById("dias");
 var divHoras = document.getElementById("horas");
 var divMinutos = document.getElementById("minutos");
 var divSegundos = document.getElementById("segundos");
 
-var fechaLimite = new Date("2023-06-26T17:40:00");
+var fechaLimite = new Date("2023-07-05T00:00:00");
 
 function actualizarContador() {
   var ahora = new Date();
@@ -21,4 +23,6 @@ function actualizarContador() {
 }
 actualizarContador();
 setInterval(actualizarContador, 1000);
+
+//OTRA COSA
 
