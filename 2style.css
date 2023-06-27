@@ -532,11 +532,13 @@
         }
         .producto {
             padding: 0px;
+            width: fit-content;
         }
         #info_producto{
             display: flex;
             flex-direction: column;
             width: 100%;
+            width: fit-content;
         }
         #container_productos_contador{
             margin-left: 20px;
