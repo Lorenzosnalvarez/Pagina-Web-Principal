@@ -565,8 +565,8 @@
             }
     /*main descargas*/
     #main_descargas{
+        border: solid red 1px;
         height: fit-content;
-        width: 90%;
     }
     #container_descargas{
         height: 75vh;
@@ -574,13 +574,13 @@
     }
     .container_catalogo{
         height: 60%;
-        width: 50%;
+        width: 5%;
         margin-top: 5%;
         overflow: auto;
     }
     .container_precios{
         height: 60%;
-        width: 50%;
+        width: fit-content;
         margin: auto;
         margin-top: 5%;
         overflow: auto;
