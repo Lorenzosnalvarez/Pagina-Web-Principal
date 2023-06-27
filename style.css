@@ -330,12 +330,12 @@
                 margin-top: 5%;
                 margin-bottom: 5%; /*no me lo marca */
                 width: 100%;
-                height: 110vh;
+                height: 120vh;
             }
             .main-containers{ 
                 box-sizing: border-box;
                 width: 90%;
-                height: 55vh;
+                height: 60vh;
                 margin: auto;
                 overflow-y:auto;
             }
