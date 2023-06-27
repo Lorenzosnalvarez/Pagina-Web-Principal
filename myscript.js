@@ -24,5 +24,5 @@ function actualizarContador() {
 actualizarContador();
 setInterval(actualizarContador, 1000);
 
-//OTRA COSA
+
 
