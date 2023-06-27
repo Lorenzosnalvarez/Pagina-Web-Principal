@@ -4,12 +4,12 @@
     margin: 0px;
     background-color: white;
     height: 100vh;
-    font-family: 'Work Sans', sans-serif; 
+    
 }
 
 /*HEADER*/
 #header_info{
-    
+    font-family: 'Work Sans', sans-serif; 
     box-sizing: border-box;
     /*porque este height me es mas grande que el vh*/
     height: 55vh;
@@ -22,7 +22,7 @@
     
 }
 #header_productos{
-    
+    font-family: 'Work Sans', sans-serif; 
     box-sizing: border-box;
     /*porque este height me es mas grande que el vh*/
     height: 55vh;
@@ -34,7 +34,7 @@
     
 }
 #header_descargas{
-    
+    font-family: 'Work Sans', sans-serif; 
     box-sizing: border-box;
     /*porque este height me es mas grande que el vh*/
     height: 55vh;
@@ -46,7 +46,7 @@
     
 }
     #header-nav{
-        
+        font-family: 'Work Sans', sans-serif; 
         box-sizing: border-box;
         margin: 0px;
         height: 10vh;
@@ -143,6 +143,7 @@
     margin-bottom: 3%;
     width: 100%;
     height: fit-content;
+    font-family: 'Work Sans', sans-serif; 
     
 }
 #main_info{
@@ -152,6 +153,7 @@
     margin-bottom: 3%;
     width: 100%;
     height: 100vh;
+    font-family: 'Work Sans', sans-serif; 
 }
 #main_descargas{
     
@@ -160,6 +162,7 @@
     margin-bottom: 3%;
     width: 100%;
     height: 70vh;
+    font-family: 'Work Sans', sans-serif; 
 }
     .items{
         
@@ -209,6 +212,7 @@
             flex-direction: column;
             align-items: center;
             padding: 0%;
+
         }
             #contador {
                 
@@ -230,17 +234,20 @@
             width: 85%;
             margin: auto;
             justify-content: space-evenly;
+            font-family: 'Work Sans', sans-serif; 
         }
             #container_catalogo_productos,#container_carrito{
                 
                 box-sizing: border-box;
                 height: fit-content;
                 width: fit-content;
+                font-family: 'Work Sans', sans-serif; 
             }
                 h2{
                     box-sizing: border-box;
                     margin-top: 0px;
                     margin-bottom: 2vh;
+                    font-family: 'Work Sans', sans-serif; 
                 }
                 .producto {
                     border: solid lightgray 1px;
