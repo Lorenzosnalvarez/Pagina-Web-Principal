@@ -317,6 +317,9 @@
                 width: 100%;
                 
         }
+        li a{
+            color: white
+        }
     .logo {
                 display: none;
     }
