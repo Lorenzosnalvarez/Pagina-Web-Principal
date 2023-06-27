@@ -158,7 +158,7 @@
 #main_descargas{
     box-sizing: border-box;
     margin-top: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     width: 100%;
     height: 75vh;
     font-family: 'Work Sans', sans-serif; 
@@ -171,31 +171,8 @@
     }
         button{
             box-sizing: border-box;
-            font-family: 'Work Sans', sans-serif; 
+            font-family: 'Work Sans', sans-serif;
         }
-
-        /*#container_productos_contador{
-            border: solid red 1px;
-            box-sizing: border-box;
-            height: 25vh;
-            width: fit-content;
-            margin: auto;
-            margin-bottom: 5%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-            #contador {
-                border: solid red 1px;
-                box-sizing: border-box;
-                display: flex;
-                justify-content: space-evenly;
-                width: 100%;
-                padding-left: 10%;
-                
-            }
-                #dias,#horas,#minutos,#segundos{
-                    padding-left: 10%;}*/
 
         #container_productos_contador{
             
@@ -565,25 +542,61 @@
             }
     /*main descargas*/
     #main_descargas{
-        height: fit-content;
+        border: solid red 1px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100vw;
+        height: 70vh; 
     }
     #container_descargas{
-        height: 75vh;
-        width: 90%; 
+        border: solid red 1px;
+        box-sizing: border-box;
+        height: fit-content;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;    
     }
-    .container_catalogo{
-        height: 60%;
-        width: 50%;
-        margin-top: 5%;
-        overflow: auto;
-    }
-    .container_precios{
-        height: 60%;
-        width: 50%;
-        margin: auto;
-        margin-top: 5%;
-        overflow: auto;
-    }
+        .container_catalogo{
+            height: fit-content;
+            width: fit-content;
+            margin: auto;
+            margin-top: 5%;
+            overflow: auto;
+        }
+        .container_precios{
+            height: fit-content;
+            width:fit-content;
+        }
+            .catalogo_titulo{
+                box-sizing: border-box;
+                margin-top: 0%;
+                margin-left: 8%;
+                margin-bottom: 2%;
+                font-size: 4vh;
+            }
+            .main-hr-1 {
+                
+                box-sizing: border-box;
+                width: 30%;
+                margin-left: 8%;
+                margin-bottom: 2%;
+            }
+            .catalogo_texto{
+                box-sizing: border-box;
+                margin-left: 8%;
+                margin-bottom: 2%;
+                text-align: left;
+                font-size: 2vh;
+                
+            }
+            .catalogo_descarga{
+                box-sizing: border-box;
+                margin-left: 8%;
+                
+                
+            }
+
 
     /*footer*/
             .footer-container {
@@ -674,28 +687,7 @@
                 margin-bottom: 0px;
                 width: fit-content;
             }
-    /*main descargas*/
-    #main_descargas{
-        height: fit-content;
-    }
-    #container_descargas{
-        height: 75vh;
-        width: 90%; 
-    }
-    .container_catalogo{
-        height: 60%;
-        width: 50%;
-        margin-top: 5%;
-        overflow: auto;
-    }
-    .container_precios{
-        height: 60%;
-        width: 50%;
-        margin: auto;
-        margin-top: 5%;
-        overflow: auto;
-    }
-
+    /*main descargas*/  
     /*footer*/
             .footer-container {
                 width: 90%;
