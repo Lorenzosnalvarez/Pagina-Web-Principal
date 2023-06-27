@@ -499,15 +499,19 @@
 
     
     #header_info,#header_productos,#header_descargas {
-      height: 30vh;
+        height: 30vh;
+        width: 100%;
     }
     
     .logo {
-      width: 20vw;
+        display: none;
+        width: 20vw;
     }
     
     .menu {
-      display: none;
+      width: 100%;
+      
+      
     }
     
     .lista {
@@ -544,28 +548,48 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+    #descripcion_producto{
+        font-size: 90%;
+        
+        
+    }
     
     #container_carrito,.container_catalogo,.container_precios {
-      width: 90%;
+      width: 100%;
+      margin: 0%;
+    }
+    #descuento{
+        display: flex;
+        flex-direction: row;
+    }
+    p{
+        font-size: 80%;
+    }
+    #contador{
+        margin: 1px;
     }
     
     .footer-container {
-      flex-direction: column;
+        width: 90%;
+        flex-direction: row;
     }
     
     .row-1{
-        display: none;
+        font-size: 90%;
+        width: 100%;
     }
     .row-2 {
-      width: 100vw;
+      width: 100%;
     }
     
     .row-2-info {
-      overflow-y: hidden;
+      overflow-y:scroll;
     }
-    
+    .footer-row-1-info{
+        font-size: 70%;
+    }
     .footer-row-2-info {
-      font-size: 120%;
+      font-size: 80%;
     }
     
     .scroll-top {
