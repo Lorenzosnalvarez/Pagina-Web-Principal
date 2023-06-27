@@ -156,12 +156,11 @@
     font-family: 'Work Sans', sans-serif; 
 }
 #main_descargas{
-    
     box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: 3%;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     font-family: 'Work Sans', sans-serif; 
 }
     .items{   
@@ -171,11 +170,8 @@
         margin: auto;
     }
         button{
-            
             box-sizing: border-box;
             font-family: 'Work Sans', sans-serif; 
-            
-            
         }
 
         /*#container_productos_contador{
@@ -310,9 +306,8 @@
                     }
             
     #container_descargas{
-        
         box-sizing: border-box;
-        height: 70vh;
+        height: 75vh;
         width: 73%;
         margin: auto;
         display: flex;
@@ -568,8 +563,29 @@
                 margin-bottom: 0px;
                 width: fit-content;
             }
-        
-            /*footer*/
+    /*main descargas*/
+    #main_descargas{
+        height: fit-content;
+    }
+    #container_descargas{
+        height: 75vh;
+        width: 90%; 
+    }
+    .container_catalogo{
+        height: 60%;
+        width: 50%;
+        margin-top: 5%;
+        overflow: auto;
+    }
+    .container_precios{
+        height: 60%;
+        width: 50%;
+        margin: auto;
+        margin-top: 5%;
+        overflow: auto;
+    }
+
+    /*footer*/
             .footer-container {
                 width: 90%;
                 flex-direction: row; 
@@ -602,7 +618,7 @@
             }
         }
 
-@media (max-width: 750px) /*solo va a aplicar estos cuando sea menor a 480px*/{
+@media (max-width: 1000px) /*solo va a aplicar estos cuando sea menor a 480px*/{
     #header_info,#header_productos,#header_descargas {
                 height: 50vh;
                 width: 100%;
@@ -658,8 +674,29 @@
                 margin-bottom: 0px;
                 width: fit-content;
             }
-        
-            /*footer*/
+    /*main descargas*/
+    #main_descargas{
+        height: fit-content;
+    }
+    #container_descargas{
+        height: 75vh;
+        width: 90%; 
+    }
+    .container_catalogo{
+        height: 60%;
+        width: 50%;
+        margin-top: 5%;
+        overflow: auto;
+    }
+    .container_precios{
+        height: 60%;
+        width: 50%;
+        margin: auto;
+        margin-top: 5%;
+        overflow: auto;
+    }
+
+    /*footer*/
             .footer-container {
                 width: 90%;
                 flex-direction: row; 
@@ -690,6 +727,4 @@
             .scroll-top{
                 display: none;
             }
-
-
-}
+        }
