@@ -102,7 +102,6 @@
 
 /*MAIN*/
 #main{
-    border: solid red 1px;
     box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: 10%; /*no me lo marca */
@@ -111,7 +110,6 @@
 }
     /*INFO 1*/
     .main-containers{ 
-        border: solid red 1px;
         box-sizing: border-box;
         width: 73%;
         height: 75vh;
@@ -137,7 +135,6 @@
                     border-color: #f666;
                 }  
         .main-texto-foto{
-            border: solid red 1px;
             box-sizing: border-box;
             height: 60%;
             width: 100%;
@@ -311,12 +308,6 @@
             border-radius: 10% 50%;
             transition-duration: 0.3s;
         }
-
-
-
-
-
-
 
 
 
