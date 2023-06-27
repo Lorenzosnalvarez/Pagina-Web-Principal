@@ -174,7 +174,8 @@
         button{
             
             box-sizing: border-box;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Work Sans', sans-serif; 
+            
             
         }
 
@@ -495,7 +496,7 @@
 
 /*RESPONSIVE*/
 
-@media only screen and (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px*/{
+@media (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px*/{
 
     
     #header_info,#header_productos,#header_descargas {
@@ -507,13 +508,9 @@
         display: none;
         width: 20vw;
     }
-    
     .menu {
       width: 100%;
-      
-      
     }
-    
     .lista {
       justify-content: center;
     }
@@ -541,7 +538,9 @@
     }
     
     .items {
-      height: 15vh;
+      height: fit-content;
+      width: 100%;
+      margin: 0%;
     }
     
     #container_productos_general {
@@ -550,14 +549,14 @@
     }
     #descripcion_producto{
         font-size: 90%;
-        
-        
+    }
+    #container_carrito,.container_catalogo,.container_precios {
+      width: fit-content;
+      height: fit-content;
+      margin: 0%;
+      font-size: 90%;
     }
     
-    #container_carrito,.container_catalogo,.container_precios {
-      width: 100%;
-      margin: 0%;
-    }
     #descuento{
         display: flex;
         flex-direction: row;
@@ -568,12 +567,10 @@
     #contador{
         margin: 1px;
     }
-    
     .footer-container {
         width: 90%;
         flex-direction: row;
     }
-    
     .row-1{
         font-size: 90%;
         width: 100%;
@@ -581,7 +578,6 @@
     .row-2 {
       width: 100%;
     }
-    
     .row-2-info {
       overflow-y:scroll;
     }
@@ -591,85 +587,8 @@
     .footer-row-2-info {
       font-size: 80%;
     }
-    
     .scroll-top {
-      bottom: 3%;
-      right: 3%;
+        display: none;
+     
     }
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media only screen and (min-width: 481px) and (max-width: 1024px) {
-    /* Estilos para tabletas */
-    #header_info,
-    #header_productos,
-    #header_descargas {
-      height: 45vh;
-    }
-    
-    .logo {
-      width: 10vw;
-    }
-    
-    .menu {
-      display: flex;
-    }
-    
-    .lista li {
-      float: none;
-    }
-    
-    #header-info {
-      padding-top: 15vh;
-    }
-    
-    .titulo {
-      font-size: 5vh;
-    }
-    
-    .subtitulo {
-      margin-top: 2vh;
-    }
-    
-    .items {
-      height: 18vh;
-    }
-    
-    #container_productos_general {
-      justify-content: center;
-    }
-    
-    #container_carrito,
-    .container_catalogo,
-    .container_precios {
-      width: 45%;
-    }
-    
-    .row-2-info {
-      overflow-y: auto;
-    }
-    
-    .footer-row-2-info {
-      font-size: 130%;
-    }
-  }
-  

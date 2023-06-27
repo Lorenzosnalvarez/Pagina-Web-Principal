@@ -293,7 +293,6 @@
             
 /*SCROLLTOP*/ 
 .scroll-top{
-   
     position: fixed;
     bottom: 4%;
     right: 4%;
@@ -316,155 +315,50 @@
             transition-duration: 0.3s;
         }
 
-
-        @media only screen and (max-width: 480px) {
-
+        @media only screen and (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px*/{
             #header_info,#header_productos,#header_descargas {
-              height: 35vh;
+                height: 30vh;
+                width: 100%;
             }
             
             .logo {
-              width: 20vw;
+                display: none;
             }
-            
             .menu {
-              display: none;
+              width: 100%; 
             }
-            
-            .lista {
-              justify-content: center;
-            }
-            
-            .lista li {
-              float: none;
-              display: inline-block;
-            }
-            
-            #header-info {
-              padding-top: 10vh;
-            }
-            
             .titulo {
-              font-size: 4vh;
+              font-size: 90%;
             }
-            
             .subtitulo {
-              margin-top: 1vh;
+              margin-top: 90%;
             }
-            
-            #main_productos,#main_info,#main_descargas {
-              margin-top: 2%;
-              margin-bottom: 2%;
-            }
-            
-            .items {
-              height: 15vh;
-            }
-            
-            #container_productos_general {
-              flex-wrap: wrap;
-              justify-content: center;
-            }
-            
-            #container_carrito,.container_catalogo,.container_precios {
-              width: 90%;
-            }
-            
             .footer-container {
-              flex-direction: column;
+                width: 90%;
+                flex-direction: row;
             }
-            
-            .row-1,
+            .row-1{
+                font-size: 90%;
+                width: 100%;
+            }
             .row-2 {
               width: 100%;
             }
             
             .row-2-info {
-              overflow-y: hidden;
+              overflow-y:scroll;
             }
-            
+            .footer-row-1-info{
+                font-size: 70%;
+            }
             .footer-row-2-info {
-              font-size: 120%;
+              font-size: 80%;
             }
             
             .scroll-top {
-              bottom: 3%;
-              right: 3%;
+                display: none;
+             
             }
           }
-          
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-          @media only screen and (min-width: 481px) and (max-width: 1024px) {
-            /* Estilos para tabletas */
-            #header_info,
-            #header_productos,
-            #header_descargas {
-              height: 45vh;
-            }
-            
-            .logo {
-              width: 10vw;
-            }
-            
-            .menu {
-              display: flex;
-            }
-            
-            .lista li {
-              float: none;
-            }
-            
-            #header-info {
-              padding-top: 15vh;
-            }
-            
-            .titulo {
-              font-size: 5vh;
-            }
-            
-            .subtitulo {
-              margin-top: 2vh;
-            }
-            
-            .items {
-              height: 18vh;
-            }
-            
-            #container_productos_general {
-              justify-content: center;
-            }
-            
-            #container_carrito,
-            .container_catalogo,
-            .container_precios {
-              width: 45%;
-            }
-            
-            .row-2-info {
-              overflow-y: auto;
-            }
-            
-            .footer-row-2-info {
-              font-size: 130%;
-            }
-          }
           
