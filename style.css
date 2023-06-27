@@ -315,3 +315,156 @@
             border-radius: 10% 50%;
             transition-duration: 0.3s;
         }
+
+
+        @media only screen and (max-width: 480px) {
+
+            #header_info,#header_productos,#header_descargas {
+              height: 35vh;
+            }
+            
+            .logo {
+              width: 20vw;
+            }
+            
+            .menu {
+              display: none;
+            }
+            
+            .lista {
+              justify-content: center;
+            }
+            
+            .lista li {
+              float: none;
+              display: inline-block;
+            }
+            
+            #header-info {
+              padding-top: 10vh;
+            }
+            
+            .titulo {
+              font-size: 4vh;
+            }
+            
+            .subtitulo {
+              margin-top: 1vh;
+            }
+            
+            #main_productos,#main_info,#main_descargas {
+              margin-top: 2%;
+              margin-bottom: 2%;
+            }
+            
+            .items {
+              height: 15vh;
+            }
+            
+            #container_productos_general {
+              flex-wrap: wrap;
+              justify-content: center;
+            }
+            
+            #container_carrito,.container_catalogo,.container_precios {
+              width: 90%;
+            }
+            
+            .footer-container {
+              flex-direction: column;
+            }
+            
+            .row-1,
+            .row-2 {
+              width: 100%;
+            }
+            
+            .row-2-info {
+              overflow-y: hidden;
+            }
+            
+            .footer-row-2-info {
+              font-size: 120%;
+            }
+            
+            .scroll-top {
+              bottom: 3%;
+              right: 3%;
+            }
+          }
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          @media only screen and (min-width: 481px) and (max-width: 1024px) {
+            /* Estilos para tabletas */
+            #header_info,
+            #header_productos,
+            #header_descargas {
+              height: 45vh;
+            }
+            
+            .logo {
+              width: 10vw;
+            }
+            
+            .menu {
+              display: flex;
+            }
+            
+            .lista li {
+              float: none;
+            }
+            
+            #header-info {
+              padding-top: 15vh;
+            }
+            
+            .titulo {
+              font-size: 5vh;
+            }
+            
+            .subtitulo {
+              margin-top: 2vh;
+            }
+            
+            .items {
+              height: 18vh;
+            }
+            
+            #container_productos_general {
+              justify-content: center;
+            }
+            
+            #container_carrito,
+            .container_catalogo,
+            .container_precios {
+              width: 45%;
+            }
+            
+            .row-2-info {
+              overflow-y: auto;
+            }
+            
+            .footer-row-2-info {
+              font-size: 130%;
+            }
+          }
+          
