@@ -497,6 +497,20 @@
         }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*RESPONSIVE*/
 @media (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px*/{
     #header_info,#header_productos,#header_descargas {
@@ -529,6 +543,7 @@
     }
         #container_catalogo_productos,#container_carrito{
             font-size: 2vh;
+            width: fit-content;
         }
         .producto {
             padding: 0px;
@@ -538,7 +553,7 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            width: fit-content;
+            
         }
         #container_productos_contador{
             margin-left: 20px;
