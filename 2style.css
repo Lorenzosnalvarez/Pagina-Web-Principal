@@ -566,6 +566,7 @@
     /*main descargas*/
     #main_descargas{
         height: fit-content;
+        width: 90%;
     }
     #container_descargas{
         height: 75vh;
