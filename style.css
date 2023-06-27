@@ -395,6 +395,8 @@
     /*titulo home*/
             #titulo{
                 font-size: 3vh;
+                display: flex;
+                justify-content: center;
             }
             .titulo-texto{
                 font-size: 100%;
