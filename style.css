@@ -315,7 +315,7 @@
             transition-duration: 0.3s;
         }
 
-        @media (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px*/{
+        /*@media (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px{
             #header_info,#header_productos,#header_descargas {
                 height: 30vh;
                 width: 100%;
@@ -361,4 +361,4 @@
             }
           }
         
-          
+          */
