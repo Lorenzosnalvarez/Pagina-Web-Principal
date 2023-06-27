@@ -315,6 +315,7 @@
 
         @media (max-width: 480px) /*solo va a aplicar estos cuando sea menor a 480px*/{
             #header_info,#header_productos,#header_descargas {
+                color: white;
                 height: 30vh;
                 width: 100%;
             }
@@ -322,7 +323,6 @@
                 display: none;
             }
             .menu {
-                color: white;
               width: 100%; 
             }
             /*containers home*/
