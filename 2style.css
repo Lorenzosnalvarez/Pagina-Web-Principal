@@ -488,14 +488,21 @@
     #header_info,#header_productos,#header_descargas {
                 height: 50vh;
                 width: 100%;
-                
+                color: white;
         }
+    li a{
+        color: white
+    }
     .logo {
                 display: none;
     }
     .menu {
-              width: 100%; 
-              font-size: 2vh;
+        width: 100%; 
+        font-size: 2vh;
+        color: white;
+    }
+    .lista{
+        color: white;
     }
     /*main*/
     #main_productos{
