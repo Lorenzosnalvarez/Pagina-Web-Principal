@@ -569,7 +569,7 @@
     }
     #container_descargas{
         height: 75vh;
-        width: 95%; 
+        width: fit-content; 
     }
     .container_catalogo{
         height: 60%;
